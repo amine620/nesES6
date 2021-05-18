@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+body{
+    height: 200vh;
+}
+
+.parent{
+    width: 70%;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 200px auto;
+    position: relative;
+   
+
+}
+.child1{
+    background-color: green;
+    position: fixed;
+     bottom :40px;
+     right: 20px;
+    
+}
+.child2{
+    background-color: rgb(50, 63, 138);
+  
+}
+.child3{
+    background-color: rgb(138, 91, 63);
+    
+}

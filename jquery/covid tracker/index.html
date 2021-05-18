@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="all.html">all countries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">display by map</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+
+
+
+    <div class="container">
+      <div class="form-group text-center mt-5">
+        <h2 class="text-center text-secondary">change result by countries</h2>
+        <select id="my-select" class="form-control" name="">
+          <!-- inserted by jquery -->
+        </select>
+      </div>
+
+      <!-- image flag -->
+      <div class="flag d-flex justify-content-center">
+        <!-- inserted by jquery -->
+      </div>
+
+      <div class="row mt-5 d-flex">
+          <div class="d-flex">
+
+        <div class="col-md-4 animate__backInDown">
+          <div class="card text-white bg-success mb-3">
+            <div class="card-header">recovered</div>
+            <div class="card-body">
+              <h5 class="card-title recovered counter">0</h5>
+              <p class="card-text">Some quick result of recovred case</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 animate__backInDown">
+          <div class="card text-white bg-warning mb-3">
+            <div class="card-header">confirmed</div>
+            <div class="card-body">
+              <h5 class="card-title confirmed">0</h5>
+              <p class="card-text">Some quick result of confirmed case</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 animate__backInDown">
+          <div class="card text-white bg-danger mb-3">
+            <div class="card-header">deaths</div>
+            <div class="card-body">
+              <h5 class="card-title deaths">0</h5>
+              <p class="card-text">Some quick result of death case</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6 offset-3">
+            <canvas id="myChart" width="400" height="400"></canvas>
+        </div>
+      </div>
+     
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.1/dist/chart.min.js"></script>
+
+    
+    
+     <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+      ></script>
+      
+      
+      <script src="chart.js"></script>
+      <script src="myCounter.js"></script>
+      <script src="script.js"></script>
+  </body>
+</html>

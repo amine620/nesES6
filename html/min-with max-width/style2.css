@@ -1,0 +1,36 @@
+.div1{
+    border: 2px dotted black;
+    width: 50%;
+}
+
+
+.div2{
+    border: 2px dotted black;
+    width: 500px;
+}
+
+
+.parent{
+    border: 2px dotted black;
+    width: 50%;
+    height: 200px;
+}
+
+.child{
+    border: 2px dotted black;
+    width: 50%;
+    height: 100px;
+}
+.div3{
+    border: 2px dotted black;
+    width: 50vw;
+    height: 100px;
+
+}
+
+.div4{
+    border: 2px dotted black;
+    max-width: 500px;
+
+}
+

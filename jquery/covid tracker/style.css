@@ -1,0 +1,12 @@
+p{
+    white-space: nowrap;
+}
+.animate__backInDown {
+  
+    animation:backInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+.card-title{
+    transition: all 2 ease;
+}

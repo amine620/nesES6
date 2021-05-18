@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+    <style>
+      /* .active{
+        display: none;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- used in event bubling -->
+    <!-- <div class="container">
+    <div class="card">
+        <div class="title">
+            <h1>Hi</h1> 
+        </div>    
+    </div>
+</div> -->
+
+    <!-- event delegation -->
+
+    <div class="form-group mt-5 col-md-6 offset-3">
+      <input id="input" type="text" class="form-control" placeholder="add new task" />
+
+      <button
+        class="form-control btn btn-success mt-2"
+        id="button"
+      >
+        add new task
+      </button>
+      <input type="text" placeholder="search...." id="search" class="form-control mt-2">
+    </div>
+    <div class="container ">
+      <div class="row">
+        <ul class="list-group col-md-6 offset-3">
+           <li class="list-group-item active">task list</li>
+        </ul>
+
+        <!-- update input -->
+        <div id="list-edit" class="input-group col-md-6 offset-3 pl-0 active">
+          <input type="text" class="form-control" placeholder="Editer le texte" aria-label="Editer le texte"
+            aria-describedby="button-addon2" />
+          <div class="input-group-append">
+            <button id="editer" class="btn btn-outline-secondary" type="button" id="button-addon2">
+              
+              Editer
+            </button>
+          </div>
+        </div>
+
+        <ul class="list-group col-md-6 offset-3" style="position: relative;">
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

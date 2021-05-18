@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">BOOTSTRAP COURS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        
+        </div>
+      </nav>
+
+<h1></h1>
+
+    <!-- ALIGNEMENT & TRANSFORMATION -->
+    <div class="container mt-5">
+       <p class="text-left text-lowercase">LEFT TEXT</p>
+       <p class="text-center text-uppercase">text center</p>
+       <p class="text-right text-capitalize">text center</p>
+       <hr>
+
+       <!-- QUICK FLOATS -->
+       <div class="float-right">float right</div>
+       <div class="float-left">float left</div>
+
+       <!-- CLEAR FLOAT  -->
+       <div class="clearfix"></div>
+
+       <hr>
+
+       <!-- LISTS -->
+       <ul class="list-unstyled">
+           <li>item one</li>
+           <li>item tow</li>
+           <li>item three</li>
+       </ul>
+
+       <hr>
+
+       <!-- UNLINE STYLE -->
+       <ul class="list-inline">
+           <li class="list-inline-item">item one</li>
+           <li class="list-inline-item">item tow</li>
+           <li class="list-inline-item">item three</li>
+           <li class="list-inline-item">item four</li>
+       </ul>
+
+       <hr>
+       <!-- tag code -->
+        <code>
+            &lt;h1&gt; hello world  &lt;/h1&gt;
+        </code>
+        <br>
+        to copy something just press <kbd>ctrl</kbd> + <kbd>c</kbd>
+
+        <hr>
+        <!-- color of text -->
+        <p class="text-primary">hello world</p>
+        <p class="text-success">hello world</p>
+        <p class="text-warning">hello world</p>
+        <p class="text-info">hello world</p>
+        <p class="text-danger">hello world</p>
+
+        <!-- BACKGROUND COLOR OF TEXT -->
+        <p class="bg-primary">hello world</p>
+        <p class="bg-success">hello world</p>
+        <p class="bg-warning">hello world</p>
+        <p class="bg-info">hello world</p>
+        <p class="bg-danger">hello world</p>
+ 
+        <hr>
+
+        <!-- BUTTONS -->
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-default">default</button>
+        <button class="btn btn-danger">danger</button>
+        <button class="btn btn-warning">warning</button>
+        <button class="btn btn-secondary">secondary</button>
+
+        <hr>
+
+        <!-- BUTTON SIZE -->
+        <button class="btn btn-primary btn-sm">primary</button>
+        <button class="btn btn-default">default</button>
+        <button class="btn btn-danger btn-lg">danger</button>
+        <button class="btn btn-warning">warning</button>
+        <hr>
+        <br>
+
+        <!-- FORM -->
+        <form action="">
+           <div class="form-group">
+               <h1 class="text-center text-secondary">contact form</h1>
+               <input type="text" placeholder="name" class="form-control mt-2">
+               <input type="text" placeholder="email" class="form-control mt-2">
+               <input type="password" placeholder="password" class="form-control mt-2">
+           </div>
+           <div class="form-group">
+               <select name="" id="" class="form-control"> mr-2
+                   <option value="M">M</option>
+                   <option value="F">F</option>
+               </select>
+           </div>
+           <div class="form-group">
+             <button class="btn btn-success form-control">login</button>
+           </div>
+        </form>
+        <hr>
+        <!-- INLINE FORM -->
+        <h1 class="text-center text-secondary">contact form</h1>
+        <form action="" class="form-inline">
+            <div class="form-group">
+                <input type="text" placeholder="name" class="form-control mr-2">
+                <input type="text" placeholder="email" class="form-control mr-2">
+                <input type="password" placeholder="password" class="form-control mr-2">
+            </div>
+            <div class="form-group mr-2">
+                <select name="" id="" class="form-control">
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+                </select>
+            </div>
+            <div class="form-group mr-2">
+              <button class="btn btn-success form-control">login</button>
+            </div>
+         </form>
+
+         <hr>
+         <!-- TABLE -->
+         <table class="table table-hover table-striped">
+             <tr>
+                 <td>first name</td>
+                 <td>last name</td>
+                 <td>age</td>
+             </tr>
+             <tr>
+                 <td>Lorem, ipsum dolor.</td>
+                 <td>Lorem, ipsum dolor.</td>
+                 <td>30</td>
+             </tr>
+             <tr>
+                <td>Lorem, ipsum dolor.</td>
+                <td>Lorem, ipsum dolor.</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Lorem, ipsum dolor.</td>
+                <td>Lorem, ipsum dolor.</td>
+                <td>30</td>
+            </tr>
+         </table>
+
+         <!-- list item -->
+         <ul class="list-group">
+             <li class="list-group-item active">item 1</li>
+             <li class="list-group-item">item 2 </li>
+             <li class="list-group-item">item 3</li>
+             <li class="list-group-item">item 4</li>
+         </ul>
+
+         <hr>
+         <!-- FLEXBOX -->
+         <div class="d-flex justify-content-around">
+             <h1 class="text-secondary">box</h1>
+             <h1 class="text-secondary">box</h1>
+             <h1 class="text-secondary">box</h1>
+             <h1 class="text-secondary">box</h1>
+             <h1 class="text-secondary">box</h1>
+         </div>
+
+         <hr>
+    </div>
+
+      <!-- GRID SYSTEM -->
+      <div class="container">
+          <div class="row">
+              <div class="border border-primary col-md-8">8 columns</div>
+              <div class="border border-primary col-md-4">4 columns</div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="border border-primary col-md-4">4 columns</div>
+            <div class="border border-primary col-md-4">4 columns</div>
+            <div class="border border-primary col-md-4">4 columns</div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="border border-primary col-md-6">6 columns</div>
+            <div class="border border-primary col-md-6">6 columns</div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <hr>
+      <!-- GRID SYSTEME RESPONSIVE -->
+      <div class="container">
+          <div class="row">
+            <div class="border border-primary col-md-4 col-sm-6">col md 4 || col sm 6 </div>
+            <div class="border border-primary col-md-4 col-sm-6">col md 4 || col sm 6</div>
+            <div class="border border-primary col-md-4 col-sm-12">col md 4 || col sm 12 </div>
+  
+          </div>
+      </div>
+      <br>
+      <br>
+      <hr>
+</body>
+</html>

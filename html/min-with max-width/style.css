@@ -1,0 +1,29 @@
+.div1 , .title{
+    border: 3px dotted black;
+}
+
+.div1{
+    width: 50%;
+    border: 3px dotted black;
+
+}
+.div2{
+  width: 500px;
+    border: 3px dotted black;
+
+}
+.div3{
+    width: 50vw;
+    border: 3px dotted black;
+
+}
+.div4{
+    max-width: 500px;
+    border: 3px dotted black;
+
+}
+.div5{
+    min-width: 500;
+    border: 3px dotted black;
+
+}

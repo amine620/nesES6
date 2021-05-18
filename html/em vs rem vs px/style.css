@@ -1,0 +1,15 @@
+html{
+    font-size: 30px;
+    
+}
+
+div{
+     font-size: 10px;
+}
+
+.first{
+  font-size: 3em;
+}
+.second{
+    font-size:2rem ;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+.box1{
+    background: goldenrod;
+}
+.box2{
+    background: hotpink;
+}
+.box3{
+    background: greenyellow;
+}

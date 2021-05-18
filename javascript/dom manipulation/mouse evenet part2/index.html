@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+        --black-border:3px dotted black;
+    }
+    .card{
+        width: 600px;
+        height: 200px;
+        border: var(--black-border);
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        position: relative;
+    }
+    .title{
+        width: 150px;
+        height: 50%;
+        border: var(--black-border);
+
+    }
+    h2{
+        position:absolute;
+        width: 60px;
+        border: var(--black-border);
+       
+
+        
+    }
+</style>
+<body>
+    
+    <div class="card">
+        <div class="title">
+            room
+        </div>
+        <div class="title">
+            room
+        </div>
+        <div class="title">
+            room
+        </div>
+
+        <h2>move me</h2>
+    </div>
+    <button>click</button>
+
+
+    <h1></h1>
+    <script src="script.js"></script>
+</body>
+</html>

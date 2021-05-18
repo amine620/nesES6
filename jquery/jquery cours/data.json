@@ -1,0 +1,17 @@
+[
+    {
+        "name":"amine",
+        "email":"amine@amie.com",
+        "phone":12313213321
+    },
+    {
+        "name":"user 1",
+        "email":"user1@test.com",
+        "phone":123132134
+    },
+    {
+        "name":"user 2",
+        "email":"user2@test.com",
+        "phone":12313213444
+    }
+]

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --left-bg-color:rgba(55, 0, 252, 0.507);
+    --right-bg-color:rgba(44, 43, 46, 0.24);
+
+    --left-btn-bg:rgba(55, 0, 252, 0.507);
+    --right-btn-bg:rgba(252, 122, 0, 0.507);
+}
+body{
+ font-family: "Roboto";
+ height: 100vh;
+ overflow: hidden;
+ margin: 0;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+.my-div{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: width 1s ease;
+
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+    white-space: nowrap;
+    
+}
+.btn-buy{
+   position: absolute;
+   left: 50%;
+   right: 50%;
+   top: 50%;
+   text-decoration: none;
+   color: white;
+   border: white solid 2px;
+   font-size: 16px;
+   font-weight: bold;
+   width: 14rem;
+   padding: 1.7rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform: translate(-50%);
+   transition: all 1s ease;
+
+}
+.left .btn-buy:hover{
+    background-color:var(--left-btn-bg) ;
+    border: none;
+}
+.right .btn-buy:hover{
+    background-color:var(--right-btn-bg) ;
+    border: none;
+}
+
+
+.my-div.left{
+    left: 0;
+    background-image: url(ps5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-div.left::before{
+    content: '';
+    position: absolute;
+    background-color: var(--left-bg-color);
+    width: 100%;
+    height: 100%;
+}
+/* right div */
+
+.my-div.right{
+    right: 0;
+    background-image: url(xbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-div.right::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--right-bg-color);
+}
+
+
+.in-hover-left .left{
+    width: 75%;
+}
+.in-hover-left .right{
+    width: 25%;
+}
+
+
+.in-hover-right .right{
+    width: 75%;
+}
+.in-hover-right .left{
+    width: 25%;
+}
+
+

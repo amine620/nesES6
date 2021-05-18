@@ -1,0 +1,5 @@
+div{
+    border: 2px dotted black;
+    min-width: 600px;
+    max-width: 900px;  
+}

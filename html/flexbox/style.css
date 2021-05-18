@@ -1,0 +1,36 @@
+.parent{
+    width: 70%;
+    margin:40px auto;
+    border: 3px dotted black;
+    height: 500px;
+    display: flex;
+    
+    /* justify-content: center; horizontal
+    align-items: center;  vertical*/
+
+    /* flex-direction: column; */
+    /* in cas of flex direction column the rules change */
+
+   /* align-items: center;  horizontal
+    justify-content: center; vertical */
+
+                                                                   
+
+}
+.child{
+    width: 200px;
+    height: 100px;
+    border: 3px dotted black;
+   
+  
+}
+
+#box2{
+    order: 1;
+}
+#box1{
+    order: 2;
+}
+#box3{
+    order: 3;
+}
